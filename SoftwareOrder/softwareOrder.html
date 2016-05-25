@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<!--	Author: Brian Wardwell
+		Date:	May 24th, 2016
+		File:	softwareOrder.html
+-->
+
+<html>
+	<head>
+		<title>SaveTheWorld Software</title>
+		<link rel ="stylesheet" type="text/css" href="software_styles.css" >
+	</head>
+
+	<body>
+		<div class = "header">
+			<h1>SaveTheWorld: Order Form</h1>
+		</div>
+		
+		<p>To order <strong>SaveTheWorld</strong>, please complete the following order form: </p>
+
+			<p>
+			<form action = "softwareOrder.php" method = "post" >
+
+				<p>Choose your operating system:
+					<select class = "dropdownOptions" name = "os">
+					<option>Linux</option>
+					<option>Macintosh</option>
+					<option>Windows</option>
+					</select>
+				</p>
+				<p>Number of copies:
+					<input type = "text" size = "5" name = "numCopies" >
+				</p>
+				<p>
+					<input class="submitButton" type = "submit" value = "Submit Your Order" >
+				</p>
+			</form>
+	</body>
+</html>

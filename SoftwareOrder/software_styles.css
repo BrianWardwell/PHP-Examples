@@ -1,0 +1,72 @@
+/*
+	Author: Brian Wardwell
+	Date: May 24th, 2016
+	Filename: airfare_styles.css
+	Description: CSS Styles for Airfare PHP calculation
+*/
+
+/* Google Font import for H1 tags (Font Title: Montserrat) */
+	@import url(https://fonts.googleapis.com/css?family=Montserrat);
+	
+/* Google Font import for form and paragraphs (Font Title: Antic) */
+	@import url(https://fonts.googleapis.com/css?family=Antic);
+
+body {
+  color: grey;
+  width: auto;
+  background-color: grey;
+  background-image: url("php_application_background.jpg");
+  width: 50%;
+  text-align: center;
+}
+
+/* Text formatting for form, paragraphs, and options */
+form, p, select, option {
+	font-family: 'Antic', sans-serif;
+}
+
+/* Styles for widening form and drop-down menu */
+
+table {
+	font-size: 22px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* Styles for .header class */
+.header {
+	font-size: 0.75em;
+	width: auto;
+	border-style: inset;
+	border-color: 2px 2px 8px white;
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+	text-shadow: 2px 2px 8px white;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* Styles for .dropdownOptions class */
+.dropdownOptions  {
+	min-width: 300px;
+	font-size: 22px;
+	background-color: black;
+	color: white;
+}
+
+/* Styles for .submitButton class */
+.submitButton {
+	min-width: 300px;
+	margin-top: 120px;
+	min-height: 40px;
+	font-size: 18px;
+}
+
+.submitButton:hover {
+	background-color: black;
+	color: white;
+	cursor: pointer;
+}
+
+
+

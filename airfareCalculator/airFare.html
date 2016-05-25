@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<!--	Author: Brian Wardwell
+		Date: May 24th, 2016
+		File:	airFare.html
+		Purpose: Gather user input data for airfare.
+-->
+
+<html>
+<head>
+	<title>AIR FARE</title>
+	<link rel="stylesheet" type="text/css" href="airfare_styles.css"><!--Link to main CSS styles -->
+</head>
+
+<body>
+	<div class = "header">
+		<h1>AIR FARE CALCULATOR</h1>
+	</div>
+	
+	<p><form action = "airFare.php" method = "post" >
+
+		<table><!---Prompting user for input -->
+			<tr>	<td>Select your vacation destination</td><tr />
+			<tr>	<td>
+						<select name = "destination" class = "dropdownOptions" />
+							<option>Barcelona</option>
+							<option>Cairo</option>
+							<option>Rome</option>
+							<option>Santiago</option>
+							<option>Tokyo</option>
+						</select>
+					</td>
+			</tr>
+
+		</table>
+		<p>
+			<input class="submitButton" type = "submit" value = "What is the air fare?" />
+		</p>
+	</form>
+</body>
+</html>

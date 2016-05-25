@@ -1,0 +1,59 @@
+/*
+	Author: Brian Wardwell
+	Date: May 24th, 2016
+	Filename: phpoutput_styles.css
+	Description: CSS Styles for Airfare PHP calculation
+*/
+
+/* Google Font import for H1 tags (Font Title: Montserrat) */
+	@import url(https://fonts.googleapis.com/css?family=Montserrat);
+	
+/* Google Font import for form and paragraphs (Font Title: Antic) */
+	@import url(https://fonts.googleapis.com/css?family=Antic);
+
+body {
+  color: grey;
+  width: auto;
+  background-color: white;
+  width: 50%;
+  text-align: center;
+}
+
+/* Text formatting for form, paragraphs, and options */
+form, p, select, option {
+	font-family: 'Antic', sans-serif;
+}
+
+
+/* Styles for .header class */
+.header {
+	font-size: 0.75em;
+	width: auto;
+	border-style: inset;
+	border-color: 2px 2px 8px white;
+	background-color: black;
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+	text-shadow: 2px 2px 8px white;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* Styles for .receipt class */
+.output {
+	font-family: 'Antic', sans-serif;
+	font-size: 1.5em;
+	text-align: center;
+	background-color: rgba(255,255,255,0.9);
+	color: black;
+	padding: 5px;
+}
+
+.print, a {
+	font-family: 'Antic', sans-serif;
+	font-size: 1.5em;
+	text-align: center;
+	color: black;
+	text-shadow: 2px 2px 8px black;
+}
+
